@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    text-align: center;
+}
+
+body p {
+    font-size: xx-large;
+}
+
+body img {
+    width: 60%;
+}
