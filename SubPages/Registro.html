@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/gif/png" href="../Images/logo.png">
+    <title>Storm Collections | Registro</title>
+    <link rel="stylesheet" href="../CSS/styleRegistro.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+
+  <header>
+    <a href="../index.html"><img id="logo" src="../Images/logo.png"/></a>
+  </header>
+
+  <body>
+    <form class="form-login" novalidate>
+      <h5 class="title">Registrarse</h5>
+      <input class="controls" id="email" type="email" pattern="^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z]{2,}$" name="Email" placeholder="Email" required>
+      <input class="controls" id="usuario" type="text" name="Usuario" placeholder="Usuario" required>
+      <input class="controls" id="contraseña1" type="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[#$@!%.&*?\s])[a-zA-Z0-9#$.@!%&*?\s]{8,16}$" name="Contraseña" placeholder="Contraseña" required>
+      <span class="noValido">La contraseña debe tener como mínimo 8 caracteres, una mayúscula, un número y un caracter especial (#$@&...)</span>
+      <input class="controls" id="contraseña2" type="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[#$@!%.&*?\s])[a-zA-Z0-9#$.@!%&*?\s]{8,16}$" name="ConfirmarContraseña" placeholder="Repita la contraseña" required>
+      <p><input class="botoncito" id="casilla" type="checkbox" name="TerminosCondiciones" required>He leído y acepto la política de privacidad</p>
+      <input class="buttons" type="submit" value="Crear Cuenta" onclick="validacion();return false;">
+      <p class="cuentanueva"><a href="Login.html">¿Te has registrado anteriormente?</a></p>
+    </form>
+    <script src="../JavaScript/validacion.js"></script>
+  </body>
+</html>

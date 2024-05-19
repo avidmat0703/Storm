@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UFT-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" type="image/gif/png" href="../Images/logo.png">
+      <title>Storm Collections | Registro</title>
+      <link rel="stylesheet" href="../CSS/styleLogin.css">
+      <!--Google Fonts-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+
+  <header>
+    <a href="../index.html"><img id="logo" src="../Images/logo.png"/></a>
+  </header>
+  
+  <body>
+    <form class="form-login" novalidate>
+      <h5>Iniciar Sesión</h5>
+      <input class="controls" id="usuario123" type="text" name="usuario" placeholder="Usuario" required>
+      <input class="controls" id="contraseña123" type="password" name="contrasena" placeholder="Contraseña" required>
+      <input class="buttons" type="submit" value="Ingresar" onclick="validacionlogin();return false;">
+      <p class="contraseña"><a href="#">¿Olvidaste tu Contraseña?</a></p>
+      <p class="cuentanueva"><a href="Registro.html">¿No tienes cuenta?</a></p>
+    </form>
+    <script src="../JavaScript/validacionlogin.js"></script>
+  </body>
+</html>
