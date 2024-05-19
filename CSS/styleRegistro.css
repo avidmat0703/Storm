@@ -6,7 +6,7 @@
 }
 
 html {
-  background-image: url(../../images/pngtree-abstract-colorful-background-wallpaper-picture-image_1456903-transformed.png);
+  background-image: url(../Images/pngtree-abstract-colorful-background-wallpaper-picture-image_1456903-transformed.png);
   background-size: cover;
 }
 
@@ -101,12 +101,12 @@ header > a > img {
   }
 
   #email:focus:invalid {
-    background: url("../images/incorrecto.png") no-repeat 98% center;
+    background: url("../Images/incorrecto.png") no-repeat 98% center;
     background-size: 30px;
   }
 
   #email:focus:valid {
-    background: url("../images/correcto1.png") no-repeat 98% center;
+    background: url("../Images/correcto1.png") no-repeat 98% center;
     background-size: 30px;    
   }
 
@@ -118,7 +118,7 @@ header > a > img {
   }
 
   #contraseña1:focus:invalid {
-    background: url("../images/incorrecto.png") no-repeat 98% center;
+    background: url("../Images/incorrecto.png") no-repeat 98% center;
     background-size: 30px;
   }
 
@@ -127,7 +127,7 @@ header > a > img {
   }
 
   #contraseña1:focus:valid {
-    background: url("../images/correcto1.png") no-repeat 98% center;
+    background: url("../Images/correcto1.png") no-repeat 98% center;
     background-size: 30px;
   }
 
@@ -140,11 +140,11 @@ header > a > img {
   }
 
   #contraseña2:focus:invalid {
-    background: url("../images/incorrecto.png") no-repeat 98% center;
+    background: url("../Images/incorrecto.png") no-repeat 98% center;
     background-size: 30px;
   }
 
   #contraseña2:focus:valid {
-    background: url("../images/correcto1.png") no-repeat 98% center;
+    background: url("../Images/correcto1.png") no-repeat 98% center;
     background-size: 30px;
   }
